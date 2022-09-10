@@ -522,25 +522,58 @@ progress {
   margin-right: auto;
   margin-left: auto; }
 
+  @media (max-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px; }
+    iframe{
+      height: 500px;
+      margin-top: 1rem;
+    } }
+
 @media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px; } }
+    max-width: 540px; }
+    iframe{
+      width:100%;
+      height: 500px;
+      margin-top: 1rem;
+    } }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 720px; } }
+    max-width: 720px; }
+    iframe{
+      width:100%;
+      margin-top: 1rem;
+    }
+ }
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 960px; } }
+    max-width: 960px; }
+    iframe{
+      width:100%;
+      height:100%;
+      margin-top: 0;
+    } }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px; } }
+    max-width: 1140px; }
+    iframe{
+      width:100%;
+      height:100%;
+      margin-top: 0;
+    } }
 
 @media (min-width: 1680px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1600px; } }
+    max-width: 1600px; }
+    iframe{
+      width:100%;
+      height:100%;
+      margin-top: 0;
+    } }
 
 .row {
   --bs-gutter-x: 3vw;
