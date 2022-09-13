@@ -9068,14 +9068,15 @@ img {
   .btn-black:hover {
     background-color: #343a40;
     color: #fff; }
-
 @media (min-width: 1200px) {
   .scrollx {
-    transform: translateX(calc(max(1140px, 100vw)/2 - 570px)); } }
+    transform: translateX(calc(max(1140px, 100vw)/2 - 570px)); }
+   }
 
 @media (min-width: 1680px) {
   .scrollx {
-    transform: translateX(calc(max(1320px, 100vw)/2 - 660px)); } }
+    transform: translateX(calc(max(1320px, 100vw)/2 - 660px)); }
+   }
 
 .bg-cover {
   background-size: cover; }
